@@ -39,5 +39,5 @@ jobs:
       - name: release
         uses: actions/upload-artifact@v3
         with:
-          name: linux-build
-          path: dist
+          name: linux-build-electron-app
+          path: dist/*.deb
